@@ -1,4 +1,4 @@
-# App 1 — Gimnasio (Estudiante 1)
+# App 1 — Gimnasio (Ricardo Villarreal)
 
 Registro del peleador + mapa interactivo de gimnasios de Ecuador
 (OpenStreetMap/Leaflet, marcadores personalizados 🥊).
