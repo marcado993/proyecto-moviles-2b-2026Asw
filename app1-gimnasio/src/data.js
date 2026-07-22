@@ -1,0 +1,73 @@
+// Gimnasios de MMA en Ecuador (adaptado de mm-fight/src/lib/data.ts)
+export const gimnasios = [
+  {
+    id: "g1",
+    nombre: "Team Oyama",
+    ciudad: "Quito",
+    direccion: "Av. América N34-56, Quito",
+    tagline: "Forjando campeones desde las bases.",
+    reputacion: 9.8,
+    peleadoresActivos: 18,
+    lat: -0.2201,
+    lng: -78.5123,
+  },
+  {
+    id: "g2",
+    nombre: "Iron Core Syndicate",
+    ciudad: "Guayaquil",
+    direccion: "Cdla. Kennedy Norte, Guayaquil",
+    tagline: "Acero forja acero.",
+    reputacion: 9.4,
+    peleadoresActivos: 14,
+    lat: -2.1894,
+    lng: -79.8891,
+  },
+  {
+    id: "g3",
+    nombre: "Guayas Warriors Elite",
+    ciudad: "Guayaquil",
+    direccion: "Urdesa Central, Guayaquil",
+    tagline: "El squad que domina el sur del país.",
+    reputacion: 8.7,
+    peleadoresActivos: 10,
+    lat: -2.215,
+    lng: -79.901,
+  },
+  {
+    id: "g4",
+    nombre: "Azuay Fight Club",
+    ciudad: "Cuenca",
+    direccion: "El Ejido, Cuenca",
+    tagline: "Desde Los Andes para el mundo.",
+    reputacion: 8.1,
+    peleadoresActivos: 8,
+    lat: -2.9006,
+    lng: -79.0045,
+  },
+  {
+    id: "g5",
+    nombre: "Cobra Kai Quito",
+    ciudad: "Quito",
+    direccion: "La Mariscal, Quito",
+    tagline: "Strike First. Strike Hard. No Mercy en la altura.",
+    reputacion: 8.9,
+    peleadoresActivos: 12,
+    lat: -0.203,
+    lng: -78.49,
+  },
+  {
+    id: "g6",
+    nombre: "Valhalla MMA Altura",
+    ciudad: "Quito",
+    direccion: "Cumbayá, Quito",
+    tagline: "Solo los dignos entran al Valhalla.",
+    reputacion: 9.1,
+    peleadoresActivos: 20,
+    lat: -0.197,
+    lng: -78.435,
+  },
+];
+
+export const categorias = ["Mosca", "Gallo", "Pluma", "Ligero", "Welter", "Mediano", "Semipesado", "Pesado"];
+export const estilos = ["Striker", "Grappler", "Mixto"];
+export const niveles = ["Amateur", "Pro"];
